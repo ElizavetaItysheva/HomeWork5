@@ -8,6 +8,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
     public static void task1() {
         System.out.println("задача 1");
@@ -56,5 +57,14 @@ public class Main {
         System.out.println("Введите год, пожалуйста");
         String year = scanner.next();
         System.out.println(day + ":" + month + ":" + year);
+    }
+    public static void task7(){
+        System.out.println("задача 7");
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.nextLine();
+        String helper = scanner.nextLine();
+        int count = scanner.nextInt();
+        System.out.println("Привет, " + name + "! Это твой помощник " + helper + ".");
+        System.out.println("У тебя " + count + " новых писем.");
     }
 }
